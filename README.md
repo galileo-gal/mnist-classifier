@@ -98,7 +98,7 @@ mnist_classifier/
 │   │   └── mnist.py          # ✅ Data loading with train/val/test splits
 │   ├── models/
 │   │   ├── fc.py             # ✅ Production fully connected model
-│   │   └── cnn.py            # 📝 TODO: CNN implementation
+│   │   └── cnn.py            # 📝 TODO: CNN implementation 
 │   ├── training/
 │   │   ├── trainer.py        # ✅ Main training loop
 │   │   ├── checkpointing.py  # ✅ Model saving/loading
@@ -257,6 +257,20 @@ These serve as correctness references and demonstrate progression to production 
 ---
 
 ## 🔜 Roadmap
+
+### Note on Repository Structure
+This repository includes placeholder files (empty or minimal implementations) for features planned in upcoming phases. The directory structure is complete to maintain clean organization as features are added.
+
+**Currently Implemented:**
+- Full training pipeline (config → train → checkpoint → eval)
+- Baseline FC model with 97.82% test accuracy
+- All infrastructure utilities (logging, seeding, device management)
+
+**Next to Implement (files exist as placeholders):**
+- CNN model and training
+- Interpretability scripts
+- Sanity check tests
+- Ablation experiments
 
 ### Immediate Next Steps
 1. **Sanity Checks** - Validate training pipeline

@@ -125,6 +125,21 @@ tensorboard --logdir=runs
 
 ## 📋 Next Tasks (Priority Order)
 
+### Placeholder Files (Created Structure, Implementation Pending)
+The following files exist in the repository but are empty/minimal and marked for next phase:
+- `src/models/cnn.py` - CNN architecture
+- `src/data/transforms.py` - Data augmentation pipeline  
+- `src/training/metrics.py` - Extended metrics (confusion matrix, per-class accuracy)
+- `scripts/visualize_filters.py` - Conv filter visualization
+- `scripts/visualize_failures.py` - Failure case analysis
+- `scripts/run_ablations.py` - Parallel ablation experiments
+- `tests/test_overfit.py` - Overfit sanity check
+- `tests/test_random_labels.py` - Random labels sanity check
+- `tests/test_single_batch.py` - Single batch sanity check
+- `configs/ablations/*.yaml` - Ablation configuration files
+
+These will be implemented in Phase 3-6 of the roadmap.
+
 ### Phase 3: Sanity Checks (CRITICAL - Do First)
 **Why:** Catches 80% of bugs before wasting time on experiments
 

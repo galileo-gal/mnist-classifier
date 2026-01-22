@@ -1,7 +1,8 @@
 # KEY_CODE.md - Essential Code Patterns & Commands
 
-Quick reference for common tasks and code patterns in this project.
+> **Note:** This reference includes patterns for features currently in development. Only the baseline FC model, training pipeline, and utility modules are fully functional. CNN, interpretability, and testing code are planned for upcoming phases.
 
+Quick reference for common tasks and code patterns in this project.
 ---
 
 ## 📦 Class & Function Reference
